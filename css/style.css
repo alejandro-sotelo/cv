@@ -1,0 +1,48 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.navbar {
+  background: #14022C !important;
+}
+
+#fullpage{
+ margin-top: -57px !important;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+.section {
+  background-size: cover;
+}
+#main-section {
+  background-image: url(../resources/main.jpeg);
+  text-align: center;
+}
+
+#main-section h1, #main-section h4 {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+#main-section h1 {
+  font-size: 5rem;
+}
+
+#main-section hr {
+  border-color: white;
+  width: 30%;
+}
+
+#main-section  h4 {
+  font-size: 3rem;
+}
