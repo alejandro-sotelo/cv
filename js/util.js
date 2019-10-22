@@ -1,8 +1,12 @@
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
-})
-
-var myFullpage = new fullpage('#fullpage', {
-    licenseKey: 'null',
-    sectionsColor: ['#14022C', '#C7CDD0', '#14022C', '#C7CDD0', '#14022C', '#C7CDD0', '#14022C']
 });
+
+
+new fullScroll({
+    mainElement: 'main',
+    displayDots: true,
+    dotsPosition: 'left',
+    animateTime: 0.7,
+    animateFunction: 'ease'
+  });
