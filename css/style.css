@@ -1,80 +1,119 @@
 /*General Styles*/
 body{
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
+  }
+
+section{
+ margin-bottom: 60px;
+}
+
+.text-vertical-align{
+    display: flex;
+    align-items: center;
+}
+
+.blue-text {
+    color: #10455B;
+    font-weight: bold;
 }
 
 .odd-section {
-  background-color: #ffffff;
-}
-
+    background-color: #ffffff;
+  }
+  
 .even-section {
-  background-color: #f9f3ed;
+    background-color: #f9f3ed;
 }
 
-/*Navbar*/
-.navbar-nav {
-  flex-direction: row;
+  /*Main*/
+#main .carousel-inner img{
+    max-height: 100vh;
+    object-fit: cover;
+    
 }
 
-.navbar-brand{
-  font-weight: bold;
-  font-family: 'Turret Road', cursive;
-}
-.nav-link {
-  padding-right: .5rem !important;
-  padding-left: .5rem !important;
-  color: black;
+#carousel{
+    position: relative;
 }
 
-.navbar-fixed-bottom{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1030;
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  font-weight: bold;
-  color: rgba(0,0,0,.7);
-}
-
-/*Profile*/
-#profile {
-  background-image: url(../resources/main.jpg);
-  background-repeat: no-repeat;
-  background-position-y: 50%;
-  background-position-x: 50%;
-  background-size: cover;
-  text-align: center;
-}
-
-#profile h1, #profile h4 {
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-}
-
-#profile hr{
-  width: 30%;
-  border-top: 1px solid rgb(0,0,0)
-}
-
-.overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(255,255,255, 0.75);   
-  color: black;
+#carousel .overlay .container, #carousel .overlay .row{
+   height: 100%;
 }
 
 #messageLabel{
-  font-family: 'Turret Road', cursive;
-  font-size: 4rem;
+    font-family: 'Turret Road', cursive;
+    font-size: 4rem;
+  }
+
+  
+.navbar-brand{
+    font-weight: bold;
+}
+  
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+    font-family: 'Raleway', sans-serif !important;
 }
 
-.grid{
-    display: grid;
+  .navbar-light .navbar-nav .nav-link:hover {
+    font-weight: bold;
+  }
+
+/*Profile*/
+#profile hr{
+    width: 30%;
+    border-top: 1px solid rgba(0,0,0,0.5)
+  }
+/*
+#footer{
+    background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
 }
+
+#footer a{
+    color: white;
+}
+
+
+.bg-dark{
+    background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372) !important;
+}
+
+.text-platzi{
+    color: #97c93e !important;
+}
+
+.btn-platzi{
+    background-color: #97c93e;
+    color: white;
+}
+
+.btn-platzi:hover{
+    background-color: #6a8d2c;
+    color: white;
+}
+
+.btn-platzi:{
+    background-color: #6a8d2c;
+    color: white;
+}
+
+#place-time img {
+    max-width: 100%;
+}
+
+#place-time {
+    background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372) !important;
+    color: white;
+}
+*/

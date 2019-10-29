@@ -16,5 +16,5 @@ function textFunc() {
    }
 }
 
-timer1 = setInterval("textFunc()", 100); // Every 100 milliseconds
+timer1 = setInterval("textFunc()", 200); // Every 100 milliseconds
 

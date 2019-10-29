@@ -1,98 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Turret+Road&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
-      <link rel="stylesheet" type="text/css" href="css/full-page-scroll.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="icon" type="image/x-icon" href="favicon.ico">
-      <title>Alejandro Sotelo</title>
-  </head>
 
-  <body data-spy="scroll" data-target="#navbar">
-    <header>
-      <nav id="navigation" class="navbar navbar-expand-lg navbar-fixed-bottom navbar-light bg-transparent">
-        <a class="navbar-brand" href="#0">
-          <img src="resources/logo.svg" width="32" height="32" class="d-inline-block align-top" alt="">
-          Alejandro Sotelo
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#1">Perfil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#2">Experiencia</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#3">Educación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#4">Certificaciones</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#5">Más</a>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Turret+Road&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Alejandro Sotelo</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+    <!--Header-->
+    <header class="fixed-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#main">
+                    <img src="resources/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Alejandro Sotelo
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profile">Perfil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#6">Contacto </a>
-                          </li>
-            </ul>
-        </div>       
-      </nav>
-    </header>
-      
-    
-    <div id="main" class="scroll-container">
-      <section class="odd-section" id="profile">
-        <div class = "overlay">
-          <div class="container grid h-100 align-items-center">
-            <div class="row justify-content-center align-self-center ">
-              <div class="col-lg-6 col-md-10 text-center">
-                  <h1 id="messageLabel"></h1> 
-              </div>
+                            <a class="nav-link" href="#">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Educación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Certificaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Más</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-            
-        </div>	
-      </section>
-      <section class="even-section" id="experience">
-        <div>
-          
-        </div>
-      </section>
-      <section class="odd-section" id="education">
-        <div>
 
+        </nav>
+    </header>
+    <!--/Header-->
+    <!--Main-->
+    <main id="main">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="resources/main.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class=" col-6 col-sm-6 col-md-6 offset-3 offset-sm-3 offset-md-3 text-center">
+                                <h1 id="messageLabel"></h1> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
-      <section class="even-section" id="certification">
-        <div>
-
+    </main>
+    <!--/Main-->
+    <!--Profile-->
+    <section id="profile">
+        <div class="container-fluid odd-section">
+            <div class="row pt-4 mb-4">
+                <div class="col-lg-12 text-center text-uppercase">
+                    <h1 class="blue-text mb-2">Perfil</h1>
+                    <small>Ingeniero en electrónica y telecomunicaciones</small>
+                    <hr>
+                </div>
+            </div>
+            <div class="row mr-4 ml-4">
+                <div class="col-lg-4 mb-4 text-center">
+                        <h2 class="blue-text mb-4" >Acerca de mi</h2>
+                        <p class="text-justify">
+                                Soy un profesional en el área de tecnologías de la información y las telecomunicaciones; con 6 años de experiencia en diseño, gestión, desarrollo e implementación de proyectos TI.<br><br>
+                                A lo largo de mi trayectoria profesional he desempeñado diferentes roles, entre los cuales se destacan: gerente de proyectos, scrum master, desarrollador de software, arquitecto de soluciones y coach
+                                técnico, tiempo en el cual he podido trabajar con diferentes tecnologías y lenguajes principalmente Java.
+                        </p>
+                    
+                </div>
+                <div class="col-lg-4 mb-4 text-center">
+                    <img src="resources/profile.png" alt="">
+                </div>
+                <div class="col-lg-4 mb-4 text-center text-vertical-align ">
+                        <p class="text-justify align-middle"><b>Nombre:</b><br>
+                        Omar Alejandro Sotelo Torres<br>
+                        <b>Ubicación:</b><br>
+                        Medellín, Colombia<br>
+                        <b>Idiomas:</b><br>
+                        Español - Lengua Natal<br>
+                        Ingles - B1</p>
+                </div>
+            </div>
         </div>
-      </section>
-      <section class="odd-section" id="more">
-        <div>
-        
-        </div>
-      </section>
-      <section class="even-section" id="contact">
-          <div>
-       			
-          </div>
-        </section>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js/presentation.js"></script>
-    <script src="js/full-page-scroll.js"></script>
+    </section>
+    <!--/Profile-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
     <script src="js/util.js"></script>
+    <script src="js/presentation.js"></script>
+</body>
 
-  </body>  
 </html>
