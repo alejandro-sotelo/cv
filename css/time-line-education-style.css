@@ -23,7 +23,7 @@
 input {
   width: 25px;
   height: 25px;
-  background-color: #2C3E50;
+  background-color: #10455B;
   position: relative;
   border-radius: 50%;
   display: block;
@@ -42,7 +42,7 @@ input::before, input::after {
   z-index: -1;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #2C3E50;
+  background-color: #10455B;
   width: 4vw;
   height: 5px;
   max-width: 50px;
@@ -54,10 +54,10 @@ input::after {
   right: calc(-4vw + 12.5px);
 }
 input:checked {
-  background-color: #2C3E50;
+  background-color: #10455B;
 }
 input:checked::before {
-  background-color: #2C3E50;
+  background-color: #10455B;
 }
 input:checked::after {
   background-color: #AEB6BF;
@@ -139,7 +139,7 @@ input[data-description="2017-II"]:checked ~ #timeline-descriptions-wrapper p[dat
   display: block;
 }
 
-@media only screen and (max-width:1250px) {
+@media only screen and (max-width:1200px) {
   
   input::before {
     left: -37.5px;
@@ -157,15 +157,15 @@ input[data-description="2017-II"]:checked ~ #timeline-descriptions-wrapper p[dat
   }
 }
 
-@media only screen and (max-width:640px){
+@media only screen and (max-width:992px){
 
     .flex-parent {
         padding-top: 0px;
       }
 
   .input-flex-container {
-    width: 45vw;
-    max-width: 400px;
+    width: 70vw;
+    max-width: 800px;
   }
 
   input, .dot-info {
@@ -182,7 +182,7 @@ input[data-description="2017-II"]:checked ~ #timeline-descriptions-wrapper p[dat
     content: none;
   }
   input:checked + .dot-info {
-    background-color: #2C3E50;
+    background-color: #10455B;
   }
   input:checked + .dot-info span.year {
     font-size: 14px;
@@ -218,21 +218,35 @@ input[data-description="2017-II"]:checked ~ #timeline-descriptions-wrapper p[dat
   #timeline-descriptions-wrapper {
     margin-top: 30px;
     margin-left: 0;
-    text-align: center;
+    text-align: justify;
   }
 }
 
-@media only screen and (max-width:540px) {
+@media only screen and (max-width:767px) {
     .input-flex-container {
-        width: 50vw;
-        max-width: 540px;
+        width: 80vw;
+        max-width: 600px;
  
       }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:575px) {
     .input-flex-container {
-        width: 60vw;
-        max-width: 480px;
+        width: 90vw;
+        max-width: 500px;
       }
+}
+
+@media only screen and (max-width:412px) {
+  .input-flex-container {
+      width: 70vw;
+      max-width: 350px;
+    }
+}
+
+@media only screen and (max-width:321px) {
+  .input-flex-container {
+      width: 75vw;
+      max-width: 320px;
+    }
 }

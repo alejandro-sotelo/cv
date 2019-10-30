@@ -1,10 +1,7 @@
 /*General Styles*/
 body{
     font-family: 'Raleway', sans-serif !important;
-}
-
-section{
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .text-vertical-align{
@@ -26,18 +23,14 @@ section{
 }
 
 /*Navbar*/
+
+.bg-dark {
+    background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #10455B) !important;
+}
 .navbar-brand{
     font-weight: bold;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: black !important;
-    font-family: 'Raleway', sans-serif !important;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    font-weight: bold;
-}
 
 /*Main*/
 #main .carousel-inner img{

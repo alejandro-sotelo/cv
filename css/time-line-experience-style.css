@@ -58,9 +58,9 @@
 	height: 120px;
 	line-height: 100px;
 	border-radius: 50%;
-	border: 10px solid #10455B;
+	border: 10px solid #FF9900;
 	font-size: 30px;
-	color:  #10455B;
+	color:  #FF9900;
 	text-align: center;
 	box-shadow: inset 0 0 10px rgba(0, 0, 0, .4);
 	position: absolute;
@@ -99,7 +99,7 @@
 .main-timeline .title {
 	font-size: 24px;
 	font-weight: 600;
-	color: #10455B;
+	color: #FF9900;
 	text-transform: uppercase;
 	margin: 0 0 5px
 }
@@ -153,32 +153,32 @@
 }
 
 .main-timeline .timeline:nth-child(2n) .logo {
-	border-color: #FFAF20;
-	color: #FFAF20
-}
-
-
-.main-timeline .timeline:nth-child(2n) .title {
-	color: #FFAF20
-}
-
-.main-timeline .timeline:nth-child(3n) .logo {
 	border-color: #10455B;
 	color: #10455B
 }
 
 
-.main-timeline .timeline:nth-child(3n) .title {
+.main-timeline .timeline:nth-child(2n) .title {
 	color: #10455B
 }
 
+.main-timeline .timeline:nth-child(3n) .logo {
+	border-color: #FF9900;
+	color: #FF9900
+}
+
+
+.main-timeline .timeline:nth-child(3n) .title {
+	color: #FF9900
+}
+
 .main-timeline .timeline:nth-child(4n) .logo {
-	border-color: #FFAF20;
-	color: #FFAF20
+	border-color: #10455B;
+	color: #10455B
 }
 
 .main-timeline .timeline:nth-child(4n) .title {
-	color: #FFAF20
+	color: #10455B
 }
 
 @media only screen and (max-width:1200px) {
@@ -188,7 +188,7 @@
 	}
 }
 
-@media only screen and (max-width:990px) {
+@media only screen and (max-width:991px) {
 	.main-timeline .timeline {
 		padding-left: 75px
 	}
