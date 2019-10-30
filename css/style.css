@@ -69,9 +69,10 @@ section{
 }
 
 /*Profile*/
-#profile hr, #experience hr{
+ hr{
     width: 30%;
     border-top: 1px solid rgba(0,0,0,0.5)
 }
 
 /*Work Experience*/
+/*Education*/
