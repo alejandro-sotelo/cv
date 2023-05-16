@@ -6,7 +6,7 @@
 .main-timeline:before {
 	content: "";
 	width: 5px;
-	height: 70%;
+	height: 80%;
 	background: #333;
 	position: absolute;
 	top: 70px;
@@ -68,26 +68,38 @@
 	left: 0
 }
 
+.main-timeline .logo-meli {
+    background-image: url(../resources/logos/meli_logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-timeline .logo-webcat {
+    background-image: url(../resources/logos/webcat_logo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .main-timeline .logo-ceiba {
-    background-image: url(../resources/logo_ceiba.png);
+    background-image: url(../resources/logos/logo_ceiba.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .main-timeline .logo-fig{
-    background-image: url(../resources/fig_logo.png);
+    background-image: url(../resources/logos/new_fig_logo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .main-timeline .logo-fup{
-    background-image: url(../resources/fup_logo.png);
+    background-image: url(../resources/logos/fup_logo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .main-timeline .logo-hds {
-    background-image: url(../resources/hds_logo.png);
+    background-image: url(../resources/logos/hds_logo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -178,6 +190,15 @@
 }
 
 .main-timeline .timeline:nth-child(4n) .title {
+	color: #10455B
+}
+
+.main-timeline .timeline:nth-child(6n) .logo {
+	border-color: #10455B;
+	color: #10455B
+}
+
+.main-timeline .timeline:nth-child(6n) .title {
 	color: #10455B
 }
 

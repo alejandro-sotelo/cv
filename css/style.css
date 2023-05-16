@@ -62,10 +62,16 @@ body{
 }
 
 /*Profile*/
- hr{
+hr{
     width: 30%;
     border-top: 1px solid rgba(0,0,0,0.5)
 }
 
-/*Work Experience*/
-/*Education*/
+.flag{
+    width: 24px;
+}
+
+.tech-logo{
+    width: 64px;
+	height: auto
+}
